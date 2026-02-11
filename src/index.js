@@ -37,7 +37,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <Provider store={store}>
     <PersistGate  persistor={persistor}>
-      <BrowserRouter  basename="/Temple-App.-Peter-and-Paul-">
+      <BrowserRouter  basename="/Family_pedigree">
           <ThemeProvider theme = {theme}>
              <App />
           </ThemeProvider>
