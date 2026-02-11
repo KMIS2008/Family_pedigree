@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#808000" />
+    <meta
+      name="description"
+      content="Церква апп. Петра і Павла с. Петропавлівське"
+    />
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:type" content="website">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Церква апп. Петра і Павла с. Петропавлівське</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+    <!-- Ваши стили -->
+    <style>
+      @font-face {
+  font-family: 'Ancient Kyiv';
+  src: url('./fonts/Ancient_Kyiv_1d6ee2b0-351a-4c2c-a89a-4de96309e5aa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rutenia';
+  src: url('./fonts/Rutenia2008VasylChebanyk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: url('./fonts/Chronicle.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+      body {
+        font-family: "Dancing Script", cursive;
+        font-family: 'Rutenia', sans-serif;
+        font-size: 20px;
+        margin: 0;
+       
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      /* @import "~slick-carousel/slick/slick.css";
+      @import "~slick-carousel/slick/slick-theme.css"; */
+
+    </style>
+
+    <script type="text/javascript">
+
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+  
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="modal"></div>
+
+    <!-- <script src="https://code.responsivevoice.org/responsivevoice.js"></script> -->
+
+  </body>
+</html>

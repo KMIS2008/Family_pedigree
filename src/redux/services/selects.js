@@ -1,0 +1,1 @@
+export const selectService =state => state.services.services;
