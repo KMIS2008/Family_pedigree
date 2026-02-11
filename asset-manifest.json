@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Family_pedigree/static/css/main.6bf167a5.css",
-    "main.js": "/Family_pedigree/static/js/main.8ee5e720.js",
+    "main.js": "/Family_pedigree/static/js/main.6454d97b.js",
     "static/js/10.129bbcb6.chunk.js": "/Family_pedigree/static/js/10.129bbcb6.chunk.js",
     "static/js/198.a6acca32.chunk.js": "/Family_pedigree/static/js/198.a6acca32.chunk.js",
     "static/js/294.594aff85.chunk.js": "/Family_pedigree/static/js/294.594aff85.chunk.js",
@@ -100,7 +100,7 @@
     "index.html": "/Family_pedigree/index.html",
     "static/media/slick.woff": "/Family_pedigree/static/media/slick.295183786cd8a1389865.woff",
     "main.6bf167a5.css.map": "/Family_pedigree/static/css/main.6bf167a5.css.map",
-    "main.8ee5e720.js.map": "/Family_pedigree/static/js/main.8ee5e720.js.map",
+    "main.6454d97b.js.map": "/Family_pedigree/static/js/main.6454d97b.js.map",
     "10.129bbcb6.chunk.js.map": "/Family_pedigree/static/js/10.129bbcb6.chunk.js.map",
     "198.a6acca32.chunk.js.map": "/Family_pedigree/static/js/198.a6acca32.chunk.js.map",
     "294.594aff85.chunk.js.map": "/Family_pedigree/static/js/294.594aff85.chunk.js.map",
@@ -150,6 +150,6 @@
   },
   "entrypoints": [
     "static/css/main.6bf167a5.css",
-    "static/js/main.8ee5e720.js"
+    "static/js/main.6454d97b.js"
   ]
 }
