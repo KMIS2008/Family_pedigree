@@ -3,20 +3,6 @@ import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
 
-/* @font-face {
-  font-family: 'Ancient Kyiv';
-  src: url('../../public/fonts/Ancient_Kyiv_1d6ee2b0-351a-4c2c-a89a-4de96309e5aa.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-  font-family: 'Rutenia';
-  src: url('../../public/fonts/Rutenia2008VasylChebanyk.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,20 +11,13 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+    height: 100%;
   }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-
-  table, td {
-  border: 1px solid #b5b5d6; 
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
 
   ul {
   list-style: circle;
@@ -100,8 +79,5 @@ button {
 br {
   display: block;
   margin-left: 20px;
-
 }
 `
-
-
