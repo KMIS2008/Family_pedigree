@@ -1,9 +1,9 @@
 {
-  "short_name": "Church",
-  "name": "Церква апп. Петра і Павла с. Петропавлівське",
+  "short_name": "Родовід",
+  "name": "Сімейний родовід",
   "icons": [
     {
-      "src": "free-icon-church-2533471",
+      "src": "forest",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
