@@ -200,3 +200,58 @@ export const RemoveImageButton = styled.button`
     background: ${p => p.theme.colors.redHover};
   }
 `;
+
+// 🆕 Стилі для select (випадаючого списку)
+export const StyledSelect = styled(Field)`
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  }
+
+  &.error {
+    border-color: #f44336;
+  }
+
+  option {
+    padding: 10px;
+  }
+`;
+
+// 🆕 Контейнер для розділу зв'язків
+export const RelationshipsSection = styled.div`
+  border-top: 2px solid #667eea;
+  margin-top: 20px;
+  padding-top: 20px;
+`;
+
+// 🆕 Заголовок розділу
+export const SectionTitle = styled.h3`
+  color: #667eea;
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`;
+
+// 🆕 Підказка
+export const Hint = styled.div`
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  line-height: 1.4;
+`;
